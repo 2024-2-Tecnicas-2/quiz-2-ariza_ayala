@@ -14,7 +14,7 @@ public class Principal {
         System.out.println("Tipo de combustible: " + coche.tipoCombustible());
 
         // Acelerar y frenar la lancha
-        System.out.println("\nLancha:");
+        System.out.println("Lancha:");
         lancha.acelerar();
         lancha.frenar();
         System.out.println("Tipo de combustible: " + lancha.tipoCombustible());

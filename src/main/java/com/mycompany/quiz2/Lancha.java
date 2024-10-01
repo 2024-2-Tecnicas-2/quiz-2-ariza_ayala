@@ -10,20 +10,9 @@ public class Lancha extends VehiculoBase {
         this.combustible = combustible;
     }
     
-    
-
-
-    
     @Override
     public TipoCombustible tipoCombustible() {
         return combustible;
     }
-    
-    
-
-
-
-    
-    
-    
+  
 }
