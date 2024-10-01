@@ -1,7 +1,7 @@
-
 package com.mycompany.quiz2;
-    
+
 public abstract class VehiculoBase implements IVehiculo {
+
     protected String marca;
     protected String modelo;
     protected int velocidadActual;
@@ -20,7 +20,12 @@ public abstract class VehiculoBase implements IVehiculo {
 
     @Override
     public void frenar() {
-        velocidadActual = Math.max(0, velocidadActual - 10);
+        velocidadActual -= 10;
+        if (velocidadActual < 0) {
+            velocidadActual = 0;
+        }
         System.out.println("Velocidad actual: " + velocidadActual + " km/h");
+
     }
+
 }

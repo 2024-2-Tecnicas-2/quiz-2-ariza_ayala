@@ -1,7 +1,7 @@
 
 package com.mycompany.quiz2;
 
-public class Lancha extends VehiculoBase {
+public class Lancha extends VehiculoBase{
     
     public TipoCombustible combustible;
 

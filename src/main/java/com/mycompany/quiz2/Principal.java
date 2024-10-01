@@ -4,8 +4,8 @@ public class Principal {
 
     public static void main(String[] args) {
         // Crear instancias de Coche y Lancha
-        Coche coche = new Coche("Toyota", "Corolla", TipoCombustible.GASOLINA);
-        Lancha lancha = new Lancha("Yamaha", "242X", TipoCombustible.ELECTRICO);
+        Coche coche = new Coche("Mazda", "ASX", TipoCombustible.DIESEL);
+        Lancha lancha = new Lancha("KTM", "527AA", TipoCombustible.ELECTRICO);
 
         // Acelerar y frenar el coche
         System.out.println("Coche:");
